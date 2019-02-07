@@ -7,4 +7,4 @@ Projeto gerado com [Angular CLI](https://github.com/angular/angular-cli) version
 Execute `npm install` para instalação dos pacotes.
 
 ## Desenvolvimento server
-Execute `ng serve` para o server de DEV. Navegar para `http://localhost:4200/`.
+Execute `ng serve` para o server de DEV e navegar em `http://localhost:4200/`.
