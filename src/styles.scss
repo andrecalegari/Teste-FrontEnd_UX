@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/images/background-1.jpg");
+    background-color: #cccccc;
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.tabs {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 48px;
+    width: 100%;
+    background-color: #006bc5;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+  
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #fff;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #006bc5;
+    will-change: left, right;
+}
+
+.select-wrapper input.select-dropdown {
+    background-color: #01478c !important;
+    color:#fff  !important;
+    padding: 0 0 0 8px  !important;
+}
+
+.select-wrapper .caret {
+    z-index: 3;
+    fill:#fff;
+}
+
+.imgEcono{
+    background-image: url("assets/images/econometro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85px;
+    width: 85px;
+  }
